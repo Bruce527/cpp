@@ -1,0 +1,74 @@
+<prm:PRMCALI_REC xmlns:prm="http://www.csc.smart/bo/schemas/PRMCALI">
+  <!--Optional:-->
+  <msp:MSPContext xmlns:msp="http://www.csc.smart/msp/schemas/MSPContext">
+            <!--Optional:-->
+       <msp:UserId>MSP</msp:UserId>
+            <msp:UserPassword>user123</msp:UserPassword>
+            <msp:RequestParameters>
+               <!--Zero or more repetitions:-->
+             <msp:RequestParameter name="BRANCH" value="NJ"/>
+             <msp:RequestParameter name="COMMITFLAG" value="Y"/>
+             <msp:RequestParameter name="COMPANY" value="2"/>
+             <msp:RequestParameter name="IGNOREDRIVERHELD" value="Y"/>
+             <msp:RequestParameter name="LANGUAGE" value="S"/>
+             <msp:RequestParameter name="XSUPPRESSRCLRSC" value="N"/>
+            </msp:RequestParameters>
+         </msp:MSPContext>
+         <PREMIUM>
+            <ZNBAKFLD/>
+            <CNTBRANCH>SH</CNTBRANCH>
+            <TTMPRCNO/>
+            <CHDRTYPE/>
+            <OCCDATE>20180619</OCCDATE>
+            <POLICYOWNER>
+               <OWNERSEL/>
+               <DOB>20000502</DOB>
+               <AGE>18</AGE>
+               <CLTSEX>M</CLTSEX>
+               <OCCUP>C101</OCCUP>
+            </POLICYOWNER>
+            <BILLFREQ>12</BILLFREQ>
+            <SRCEBUS>5</SRCEBUS>
+            <CNTCURR>CNY</CNTCURR>
+            <BILLCURR>CNY</BILLCURR>
+            <!--1 to 2 repetitions:-->
+            <INSUREDLIST>
+               <INSURED>
+                  <LIFE>01</LIFE>
+                  <LIFCNUM/>
+                  <CLTDOB>20000502</CLTDOB>
+                  <INSAGE>18</INSAGE>
+                  <SEX>M</SEX>
+                  <OCCUPD>C101</OCCUPD>
+                  <PACKAGEINFO>
+                     <ZNPKGCODE/>
+                     <TOTPRE>0</TOTPRE>
+                     <ZTOTSI>0</ZTOTSI>
+                  </PACKAGEINFO>
+                  <!--1 to 9 repetitions:-->
+                  <COVERAGELIST>
+                     <COVERAGEINFO>
+                        <COVERAGE>01</COVERAGE>
+                        <CCDATE>20180619</CCDATE>
+                        <RIDER>00</RIDER>
+                        <ZNPRDCODE>DD16DA</ZNPRDCODE>
+                        <SUMIN>300000</SUMIN>
+                        <ZNDISPER>1</ZNDISPER>
+                        <ZNRFAGE>0</ZNRFAGE>
+                        <RCESSAGE>106</RCESSAGE>
+                        <RCESSTRM>0</RCESSTRM>
+                        <PCESSAGE>0</PCESSAGE>
+                       <INSTPRM>0</INSTPRM>
+                        <PCESSTRM>20</PCESSTRM>
+
+                        <JLSEX/>
+                        <ZNJLAGE>0</ZNJLAGE>
+
+                        <BENPLN/>
+                        <LIVESNO>1</LIVESNO>
+                     </COVERAGEINFO>
+                  </COVERAGELIST>
+               </INSURED>
+            </INSUREDLIST>
+         </PREMIUM>
+      </prm:PRMCALI_REC>

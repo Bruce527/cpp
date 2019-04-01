@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<quartz xmlns="http://www.opensymphony.com/quartz/JobSchedulingData"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.opensymphony.com/quartz/JobSchedulingData
+  http://www.opensymphony.com/quartz/xml/job_scheduling_data_1_5.xsd"
+  version="1.5">  
+
+
+  <job>
+    <job-detail>
+      <name>Modify Order Records Job</name>
+      <group>DEFAULT</group>
+      <job-class>com.sinosoft.map.lis.job.WriteVisitRecordsJob</job-class>
+    </job-detail>
+    <trigger>
+      <cron>
+        <name>Write Records per 10Minites</name>
+        <group>Record</group>
+        <job-name>Modify Order State Job</job-name>
+        <job-group>Record</job-group>
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+     </cron>
+    </trigger>
+  </job>
+    
+  <job>
+    <job-detail>
+      <name>AddClickJob</name>
+      <group>DEFAULT2</group>
+      <job-class>com.sinosoft.map.lis.job.AddClickJob</job-class>
+    </job-detail>
+    <trigger>
+      <cron>
+        <name>Write Clicks per 10Minites</name>
+        <group>Record</group>
+        <job-name>Modify Order State Job1</job-name>
+        <job-group>Record</job-group>
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+     </cron>
+    </trigger>
+  </job>
+  <job>
+    <job-detail>
+      <name>batchJob</name>
+      <group>DEFAULT3</group>
+      <job-class>com.sinosoft.map.lis.job.MessageBatchJob</job-class>
+    </job-detail>
+    <trigger>
+      <cron>
+        <name>Write Clicks per 1day</name>
+        <group>Record</group>
+        <job-name>Modify Order State Job1</job-name>
+        <job-group>Record</job-group>
+        <cron-expression>0 58 23 * * ?</cron-expression>
+     </cron>
+    </trigger>
+  </job>
+<job>
+    <job-detail>
+      <name>TestJob</name>
+      <group>DEFAULT2</group>
+      <job-class>com.sinosoft.map.lis.job.TestJob</job-class>
+    </job-detail>
+    <trigger>
+      <cron>
+        <name>Write Clicks per 10Minites</name>
+        <group>Record</group>
+        <job-name>Modify Order State Job1</job-name>
+        <job-group>Record</job-group>
+        <cron-expression>0 0/1 * * * ?</cron-expression>
+     </cron>
+    </trigger>
+  </job>
+</quartz>

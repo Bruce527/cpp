@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="GBK"?>
+<npl:NPLCRTI_REC xmlns:npl="http://www.csc.smart/bo/schemas/NPLCRTI">
+<msp:MSPContext xmlns:msp="http://www.csc.smart/msp/schemas/MSPContext">
+    <msp:UserId>MSP</msp:UserId>
+    <msp:UserPassword>user123</msp:UserPassword>
+    <msp:RequestParameters>
+      <!--Zero or more repetitions:-->
+      <msp:RequestParameter name="BRANCH" value="NJ" />
+      <msp:RequestParameter name="COMMIT_FLAG" value="Y" />
+      <msp:RequestParameter name="COMPANY" value="2" />
+      <msp:RequestParameter name="IGNORE_DRIVER_HELD" value="Y" />
+      <msp:RequestParameter name="LANGUAGE" value="S" />
+      <msp:RequestParameter name="XSUPPRESS_RCLRSC" value="N" />
+    </msp:RequestParameters>
+  </msp:MSPContext>
+  <POLST>
+    <POLICY>
+      <AGCOMRT>100</AGCOMRT>
+      <BANKCODE01 />
+      <BANKDESC01R>1</BANKDESC01R>
+      <BANKDESC03R />
+      <BENEFICIARYLIST>
+        <BENEFICIARY>
+          <ADDRTYPE04 />
+          <BNYPC>100.0</BNYPC>
+          <BNYSEL />
+          <BNYTYPE>02</BNYTYPE>
+          <CLTRELN02>04</CLTRELN02>
+          <CLTSEX04>M</CLTSEX04>
+          <CTRYCODE04 />
+          <DOB04>20020701</DOB04>
+          <EFFDATE>0</EFFDATE>
+          <EXPDTE04>20220810</EXPDTE04>
+          <IDNPRF04>01</IDNPRF04>
+          <LSURNAME04>王泽宇</LSURNAME04>
+          <MARRYD04 />
+          <NATLTY04 />
+          <SALUTL04>MR / MRS</SALUTL04>
+          <SECUITYNO04>320104200207012810</SECUITYNO04>
+          <ZACLTADDR04 />
+          <ZBNYTLVL>01</ZBNYTLVL>
+          <ZDCLMPLN>Y</ZDCLMPLN>
+          <ZNBUSUT04 />
+          <ZNPIDCPYID04 />
+          <BENSEQ />
+          <BENREF />
+          <CPKIND />
+          <PRSKINDBEN />
+        </BENEFICIARY>
+      </BENEFICIARYLIST>
+      <BILLCURR>CNY</BILLCURR>
+      <BILLFREQ>01</BILLFREQ>
+      <CAMPAIGN />
+      <CHDRNUM />
+      <CLTPCODE03>210000</CLTPCODE03>
+      <CNTBRANCH>NJ</CNTBRANCH>
+      <CNTCURR>CNY</CNTCURR>
+      <DLVRMODE>03</DLVRMODE>
+      <DOCORIGAMT>0</DOCORIGAMT>
+      <FRTRECBANK>
+        <BANKACCKEY02 />
+        <BANKDESC02 />
+        <BANKKEY02 />
+        <BNKACTYP02 />
+        <CURRCODE02 />
+        <DATEFROM01>0</DATEFROM01>
+        <DATETO>0</DATETO>
+      </FRTRECBANK>
+      <GENERALREMARK>
+        <LINE01>1.投保人职业代码未填写。</LINE01>
+        <LINE02>2.请确认投保人身高、体重。</LINE02>
+      </GENERALREMARK>
+      <HPROPDTE>20190220</HPROPDTE>
+      <HPRRCVDT>20190221</HPRRCVDT>
+      <INSLST>
+        <INSURED>
+          <COVLST>
+            <COVINFO>
+              <ADVANCE />
+              <ARREARS />
+              <BCESSAGE>52</BCESSAGE>
+              <BCESSTRM>0</BCESSTRM>
+              <COVERAGE>01</COVERAGE>
+              <DTHPERCN>0</DTHPERCN>
+              <DTHPERCO>0</DTHPERCO>
+              <FREQANN>01</FREQANN>
+              <PMTANN>02</PMTANN>
+              <FREQCPN />
+              <PMTCPN />
+              <COMMSFLAG />
+              <CLMPMTFRQ />
+              <GUARPERD>0</GUARPERD>
+              <INSTPRM>200000.00</INSTPRM>
+              <LIVESNO>1</LIVESNO>
+              <LMPCNT>0</LMPCNT>
+              <MORTCLS>2</MORTCLS>
+              <NOMLIFE />
+              <PAYBANKINFOR>
+                <BANKACCKEY />
+                <BANKCODE />
+                <BANKDESC />
+                <BANKKEY />
+                <BNKACTYP />
+                <CURRCODE />
+                <DATEFROM>0</DATEFROM>
+                <TIMESUSE>0</TIMESUSE>
+              </PAYBANKINFOR>
+              <PAYCLT />
+              <PAYMENT>
+                <CLAIMCUR>CNY</CLAIMCUR>
+                <CLTYPE />
+                <PAYCLT02 />
+                <PRCNT>0</PRCNT>
+                <REGPAYFREQ>01</REGPAYFREQ>
+                <RGPYMOP />
+              </PAYMENT>
+              <PCESSAGE>0</PCESSAGE>
+              <PCESSTRM>3</PCESSTRM>
+              <PRCAMTIND />
+              <PRMFLST>
+                <UALPRC01>0</UALPRC01>
+                <UALPRC02>0</UALPRC02>
+                <UALPRC03>0</UALPRC03>
+                <UALPRC04>0</UALPRC04>
+                <UALPRC05>0</UALPRC05>
+                <UALPRC06>0</UALPRC06>
+                <UALPRC07>0</UALPRC07>
+                <UALPRC08>0</UALPRC08>
+                <UALPRC09>0</UALPRC09>
+                <UALPRC10>0</UALPRC10>
+                <VRTFND01 />
+                <VRTFND02 />
+                <VRTFND03 />
+                <VRTFND04 />
+                <VRTFND05 />
+                <VRTFND06 />
+                <VRTFND07 />
+                <VRTFND08 />
+                <VRTFND09 />
+                <VRTFND10 />
+              </PRMFLST>
+              <RCESSAGE>0</RCESSAGE>
+              <RCESSTRM>15</RCESSTRM>
+              <RGUFLST>
+                <ZAVRTFND01 />
+                <ZAVRTFND02 />
+                <ZAVRTFND03 />
+                <ZAVRTFND04 />
+                <ZAVRTFND05 />
+                <ZAVRTFND06 />
+                <ZAVRTFND07 />
+                <ZAVRTFND08 />
+                <ZAVRTFND09 />
+                <ZAVRTFND10 />
+                <ZNSPLAMT01>0</ZNSPLAMT01>
+                <ZNSPLAMT02>0</ZNSPLAMT02>
+                <ZNSPLAMT03>0</ZNSPLAMT03>
+                <ZNSPLAMT04>0</ZNSPLAMT04>
+                <ZNSPLAMT05>0</ZNSPLAMT05>
+                <ZNSPLAMT06>0</ZNSPLAMT06>
+                <ZNSPLAMT07>0</ZNSPLAMT07>
+                <ZNSPLAMT08>0</ZNSPLAMT08>
+                <ZNSPLAMT09>0</ZNSPLAMT09>
+                <ZNSPLAMT10>0</ZNSPLAMT10>
+              </RGUFLST>
+              <RIDER>00</RIDER>
+              <RSUNIN />
+              <SUMIN>18498</SUMIN>
+              <WITHOPROP />
+              <WITHPROP />
+              <ZACOVBAK01 />
+              <ZACOVBAK02 />
+              <ZACOVBAK03 />
+              <ZACOVBAK04 />
+              <ZACOVBAK05 />
+              <ZNINVAMT>0</ZNINVAMT>
+              <ZNPRDCODE>LA12BA</ZNPRDCODE>
+              <ZNTRM>0</ZNTRM>
+              <ZPRFLG>N</ZPRFLG>
+              <ZUNIT>1</ZUNIT>
+            </COVINFO>
+          </COVLST>
+          <HEIGHT>172</HEIGHT>
+          <HUWDCDTE>99999999</HUWDCDTE>
+          <INSUREDINFO>
+            <ADDRTYPE02>1</ADDRTYPE02>
+            <CLRSKIND02>1</CLRSKIND02>
+            <CLTPCODE02>210000</CLTPCODE02>
+            <CLTPHONE02 />
+            <CLTSEX02>F</CLTSEX02>
+            <CTRYCODE02>01</CTRYCODE02>
+            <DECGRSAL02>1000000</DECGRSAL02>
+            <DOB02>19711111</DOB02>
+            <EXPDTE02>20251125</EXPDTE02>
+            <IDNPRF02>01</IDNPRF02>
+            <INCDESC02 />
+            <INCPRF02 />
+            <LIFCNUM />
+            <LSURNAME02>袁荷梅</LSURNAME02>
+            <MARRYD02 />
+            <NATLTY02>01</NATLTY02>
+            <OCCPCODE02>A001</OCCPCODE02>
+            <RINTERNET02>无</RINTERNET02>
+            <RMBLPHONE02>13815883151</RMBLPHONE02>
+            <RSKFLG02>1</RSKFLG02>
+            <SALUTL02>MR / MRS</SALUTL02>
+            <SECUITYNO02>320121197111112720</SECUITYNO02>
+            <ZACLTADDR02>江苏省南京市秦淮区大明路九龙雅苑2-6-402#</ZACLTADDR02>
+            <ZNBUSUT02>南京天茂智能科技有限公司</ZNBUSUT02>
+            <ZNPIDCPYID02>Y</ZNPIDCPYID02>
+            <PRSKINDINS />
+          </INSUREDINFO>
+          <LIFE>01</LIFE>
+          <OCCUP>A001</OCCUP>
+          <QUESTIONARE>
+            <QUESTIONLIST>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A10</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A11</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A12</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A13</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A14</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A15</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A16</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A17</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A18</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A19</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A20</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>B01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>B02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>B03</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C03</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C04</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>165</ANSWER>
+                <QUESTIDF>C05</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>52</ANSWER>
+                <QUESTIDF>C06</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A03</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C07</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C08</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C09</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C10</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C11</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C12</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C13</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C14</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C15</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C16</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A04</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C17</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>C18</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>D01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>D02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>D03</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>S01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>S02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>S03</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>S04</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>T01</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>172</ANSWER>
+                <QUESTIDF>A05</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER />
+                <QUESTIDF>T02</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>70</ANSWER>
+                <QUESTIDF>A06</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A07</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A08</QUESTIDF>
+              </QUESTION>
+              <QUESTION>
+                <ANSWER>N</ANSWER>
+                <QUESTIDF>A09</QUESTIDF>
+              </QUESTION>
+            </QUESTIONLIST>
+            <QUESTSET>MTQBA</QUESTSET>
+          </QUESTIONARE>
+          <RELATION>00</RELATION>
+          <SELECTION />
+          <SMOKING />
+          <WEIGHT>70</WEIGHT>
+        </INSURED>
+      </INSLST>
+      <MOP>D</MOP>
+      <OCCDATE>20190220</OCCDATE>
+      <PACKAGEINFO>
+        <TOTPRE>0</TOTPRE>
+        <ZNPKGCODE />
+        <ZTOTSI>0</ZTOTSI>
+      </PACKAGEINFO>
+      <PAYTYPE />
+      <POLICYOWNER>
+        <ADDRTYPE>1</ADDRTYPE>
+        <CLRSKIND>1</CLRSKIND>
+        <CLTPCODE>210000</CLTPCODE>
+        <CLTPHONE />
+        <CLTSEX>F</CLTSEX>
+        <CTRYCODE>01</CTRYCODE>
+        <DECGRSAL>1000000</DECGRSAL>
+        <DOB>19711111</DOB>
+        <EXPDTE>20251125</EXPDTE>
+        <IDNPRF>01</IDNPRF>
+        <INCDESC />
+        <INCPRF />
+        <LSURNAME>袁荷梅</LSURNAME>
+        <MARRYD />
+        <NATLTY>01</NATLTY>
+        <OCCPCODE>A001</OCCPCODE>
+        <OWNERSEL />
+        <RINTERNET>无</RINTERNET>
+        <RMBLPHONE>13815883151</RMBLPHONE>
+        <RSKFLG>1</RSKFLG>
+        <SALUTL>MR / MRS</SALUTL>
+        <SECUITYNO>320121197111112720</SECUITYNO>
+        <ZACLTADDR>江苏省南京市秦淮区大明路九龙雅苑2-6-402#</ZACLTADDR>
+        <ZNBUSUT>南京天茂智能科技有限公司</ZNBUSUT>
+        <ZNPIDCPYID>Y</ZNPIDCPYID>
+        <PRSKINDOWN />
+        <ANNPRMTEND>0</ANNPRMTEND>
+        <FMLINCOME>0</FMLINCOME>
+        <RSDTKIND />
+      </POLICYOWNER>
+      <PRT1OPT>Y</PRT1OPT>
+      <PRT2OPT>Y</PRT2OPT>
+      <REGISTER>01</REGISTER>
+      <RFCODE>CN</RFCODE>
+      <RFNUM />
+      <SACSCODE />
+      <SACSTYPE />
+      <SEQRECBANK>
+        <BANKACCKEY03>6217778000594157</BANKACCKEY03>
+        <BANKDESC03>袁荷梅</BANKDESC03>
+        <BANKKEY03>BONJ</BANKKEY03>
+        <BNKACTYP03 />
+        <CURRCODE03>CNY</CURRCODE03>
+        <DATEFROM02>20190220</DATEFROM02>
+        <DATETO02>0</DATETO02>
+      </SEQRECBANK>
+      <SRCEBUS>3</SRCEBUS>
+      <STATCODE>PS</STATCODE>
+      <SUBAGENTLIST>
+        <SPLITC>0</SPLITC>
+        <ZNAGNTSEL01 />
+      </SUBAGENTLIST>
+      <TCHQDATE>0</TCHQDATE>
+      <TRANDATEX>0</TRANDATEX>
+      <TTMPRCNO>118001246527</TTMPRCNO>
+      <VIP>N</VIP>
+      <BUYERID />
+      <ZAPOLFLD1 />
+      <ZAPOLFLD2 />
+      <ZAPOLFLD3 />
+      <ZAPOLFLD4 />
+      <ZAPOLFLD5>1</ZAPOLFLD5>
+      <ZAPOLFLD6 />
+      <ZAPOLFLD7 />
+      <ZAPOLFLD8 />
+      <ZAPOLFLD9 />
+      <ZAPOLFLD10 />
+      <ZAPOLFLD11 />
+      <ZAPOLFLD12 />
+      <ZAPOLFLD13 />
+      <ZAPOLFLD14 />
+      <ZAPOLFLD15 />
+      <ZDIVOPT />
+      <ZNAGNTSEL>NJ000900AA0158</ZNAGNTSEL>
+      <ZNBILLNO />
+      <ZNBNKODR />
+      <ZNCSMNAME>1005807</ZNCSMNAME>
+      <ZNDISPER>0</ZNDISPER>
+      <ZNEPOLFLG />
+      <ZNEXTSYS>4</ZNEXTSYS>
+      <ZNFOPT>03</ZNFOPT>
+      <ZNFPMOP>C</ZNFPMOP>
+      <ZNGPCNO />
+      <ZNINVBNK />
+      <ZNOVRPAYOP>N</ZNOVRPAYOP>
+      <ZNPRJTCD />
+      <ZNPSTADD>江苏省南京市秦淮区大明路九龙雅苑2-6-402#</ZNPSTADD>
+      <ZNSPCTYP />
+    </POLICY>
+  </POLST>
+</npl:NPLCRTI_REC>
+

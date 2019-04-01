@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <ProcessMessage xmlns="http://eai.metlife.com/">
+      <ns1:ESBEnvelope xmlns:ns1="http://MetLifeEAI.EAISchema">
+        <ESBHeader xmlns="">
+          <SrvDate>2018-07-02</SrvDate>
+          <SrvTime>07:57:21.392Z</SrvTime>
+          <SenderID>MDES</SenderID>
+          <ReceiverID>LA</ReceiverID>
+          <SrvOpName>PRMService</SrvOpName>
+          <SrvOpVer/>
+        </ESBHeader>
+        <MsgBody xmlns="">
+          <prm:PRMCALI_REC xmlns:prm="http://www.csc.smart/bo/schemas/PRMCALI">  
+            <!--Optional:-->  
+            <msp:MSPContext xmlns:msp="http://www.csc.smart/msp/schemas/MSPContext">  
+              <!--Optional:-->  
+              <msp:UserId>MSP</msp:UserId>  
+              <msp:UserPassword>user123</msp:UserPassword>  
+              <msp:RequestParameters> 
+                <!--Zero or more repetitions:-->  
+                <msp:RequestParameter name="BRANCH" value=""/>  
+                <msp:RequestParameter name="COMMITFLAG" value="Y"/>  
+                <msp:RequestParameter name="COMPANY" value="2"/>  
+                <msp:RequestParameter name="IGNOREDRIVERHELD" value="Y"/>  
+                <msp:RequestParameter name="LANGUAGE" value="S"/>  
+                <msp:RequestParameter name="XSUPPRESSRCLRSC" value="N"/> 
+              </msp:RequestParameters> 
+            </msp:MSPContext>  
+            <PREMIUM> 
+              <ZNBAKFLD/>  
+              <BILLCURR>CNY</BILLCURR>  
+              <BILLFREQ>00</BILLFREQ>  
+              <SRCEBUS>3</SRCEBUS>  
+              <CHDRTYPE/>  
+              <CNTBRANCH>SH</CNTBRANCH>  
+              <CNTCURR>CNY</CNTCURR>  
+              <INSUREDLIST> 
+                <INSURED> 
+                  <CLTDOB>19901212</CLTDOB>  
+                  <COVERAGELIST>
+                    <COVERAGEINFO> 
+                      <BENPLN/>  
+                      <CCDATE>20170329</CCDATE>  
+                      <COVERAGE>01</COVERAGE>  
+                      <INSTPRM>300000.00</INSTPRM>  
+                      <JLSEX/>  
+                      <LIVESNO/>  
+                      <PCESSAGE/>  
+                      <PCESSTRM>1</PCESSTRM>  
+                      <RCESSAGE>106</RCESSAGE>  
+                      <RCESSTRM/>  
+                      <RIDER/>  
+                      <SUMIN>0.00</SUMIN>  
+                      <ZNDISPER>1</ZNDISPER>  
+                      <ZNJLAGE/>  
+                      <ZNPRDCODE>UL10B</ZNPRDCODE>  
+                      <ZNRFAGE>66</ZNRFAGE> 
+                    </COVERAGEINFO>
+                  </COVERAGELIST>  
+                  <INSAGE>26</INSAGE>  
+                  <LIFCNUM/>  
+                  <LIFE>01</LIFE>  
+                  <OCCUPD>A001</OCCUPD>  
+                  <PACKAGEINFO> 
+                   <TOTPRE>0</TOTPRE>  
+                    <ZNPKGCODE/>  
+                    <ZTOTSI/> 
+                  </PACKAGEINFO>  
+                  <SEX>M</SEX> 
+                </INSURED> 
+              </INSUREDLIST>  
+              <OCCDATE>20170329</OCCDATE>  
+              <POLICYOWNER> 
+                <AGE>26</AGE>  
+                <CLTSEX>M</CLTSEX>  
+                <DOB>19901212</DOB>  
+                <OCCUP>A001</OCCUP>  
+                <OWNERSEL/> 
+              </POLICYOWNER>  
+              <TTMPRCNO>201703290390</TTMPRCNO> 
+            </PREMIUM> 
+          </prm:PRMCALI_REC>
+        </MsgBody>
+      </ns1:ESBEnvelope>
+    </ProcessMessage>
+  </soapenv:Body>
+</soapenv:Envelope>
